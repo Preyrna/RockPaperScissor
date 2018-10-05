@@ -15,6 +15,7 @@ public:
     // enum defines modes of selection
     typedef enum {
         RANDOM = 0
+        ML = 1;
     } cpuMode_t;
 
     CPU(cpuMode_t mode);
